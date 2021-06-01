@@ -1,0 +1,10 @@
+﻿{
+	"Id": "SwimChargeInventory",
+	"DisplayName": "Swim Charge Inventory",
+	"Author": "xilni",
+	"Version": "0.1",
+	"Enable": true,
+	"Game": "BelowZero",
+	"AssemblyName": "SwimChargeInventory.dll",
+	"Dependencies": [ "SMLHelper" ]
+}
