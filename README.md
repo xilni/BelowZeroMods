@@ -4,7 +4,7 @@
 
 | Mod name   | Description                                                               | URL                                                            |
 |------------|---------------------------------------------------------------------------|----------------------------------------------------------------|
-| SwimChargeInventory | Allows the Swim Charge Fins to charge items in your inventory | Soon...
+| SwimChargeInventory | Allows the Swim Charge Fins to charge items in your inventory | https://www.nexusmods.com/subnauticabelowzero/mods/189 |
 
 ## Credits
 
