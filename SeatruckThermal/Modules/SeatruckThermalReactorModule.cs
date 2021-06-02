@@ -12,14 +12,20 @@ namespace SeatruckThermal.Modules
             "SeatruckThermalReactor",
             "Seatruck Thermal Reactor",
             "Recharges power cells in hot areas (doesn't stack).")
-        {}
+        {
+            OnFinishedPatching += () =>
+            {
+                SMLHelper.V2.Handlers.CraftTreeHandler.Main.AddCraftingNode(CraftTree.Type.Fabricator, this.TechType, new string[] { "Upgrades", "SeatruckUpgrades" });
+                SMLHelper.V2.Handlers.CraftTreeHandler.Main.AddCraftingNode(CraftTree.Type.SeaTruckFabricator, this.TechType, new string[] { "Upgrades" });
+                SMLHelper.V2.Handlers.CraftTreeHandler.Main.AddCraftingNode(CraftTree.Type.SeamothUpgrades, this.TechType, new string[] { "SeaTruckUpgrade" });
+                SMLHelper.V2.Handlers.CraftTreeHandler.Main.AddCraftingNode(CraftTree.Type.Workbench, this.TechType, new string[] { "SeaTruckWBUpgrades" });
+            };
+        }
 
         public override EquipmentType EquipmentType => EquipmentType.SeaTruckModule;
         public override TechType RequiredForUnlock => TechType.ExosuitThermalReactorModule;
         public override TechGroup GroupForPDA => TechGroup.VehicleUpgrades;
         public override TechCategory CategoryForPDA => TechCategory.VehicleUpgrades;
-        public override CraftTree.Type FabricatorType => CraftTree.Type.SeamothUpgrades;
-        public override string[] StepsToFabricatorTab => new string[] { "SeaTruckUpgrade" };
         public override QuickSlotType QuickSlotType => QuickSlotType.Passive;
 
         public override IEnumerator GetGameObjectAsync(IOut<GameObject> gameObject)
