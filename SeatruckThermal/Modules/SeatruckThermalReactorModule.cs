@@ -9,7 +9,7 @@ namespace SeatruckThermal.Modules
     class SeatruckThermalReactorModule : Equipable
     {
         public SeatruckThermalReactorModule() : base(
-            "SeaTruckUpgradeThermalReactor",
+            "SeatruckThermalReactor",
             "Seatruck Thermal Reactor",
             "Recharges power cells in hot areas (doesn't stack).")
         {}
