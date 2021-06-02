@@ -1,0 +1,10 @@
+﻿{
+	"Id": "SeatruckThermal",
+	"DisplayName": "Seatruck Thermal",
+	"Author": "xilni",
+	"Version": "0.1.0",
+	"Enable": true,
+	"Game": "BelowZero",
+	"AssemblyName": "SeatruckThermal.dll",
+	"Dependencies": [ "SMLHelper" ]
+}
