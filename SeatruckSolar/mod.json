@@ -1,0 +1,10 @@
+﻿{
+	"Id": "SeatruckSolar",
+	"DisplayName": "Seatruck Solar",
+	"Author": "xilni",
+	"Version": "0.1.0",
+	"Enable": true,
+	"Game": "BelowZero",
+	"AssemblyName": "SeatruckSolar.dll",
+	"Dependencies": [ "SMLHelper" ]
+}
