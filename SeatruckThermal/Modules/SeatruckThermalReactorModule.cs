@@ -3,8 +3,6 @@ using SMLHelper.V2.Crafting;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UWE;
-using System;
 
 namespace SeatruckThermal.Modules
 {
@@ -24,7 +22,6 @@ namespace SeatruckThermal.Modules
         public override string[] StepsToFabricatorTab => new string[] { "SeaTruckUpgrade" };
         public override QuickSlotType QuickSlotType => QuickSlotType.Passive;
 
-        // Use the Prawn Thermal Reactor module GameObject since all modules have the same model
         public override IEnumerator GetGameObjectAsync(IOut<GameObject> gameObject)
         {
             CoroutineTask<GameObject> task = CraftData.GetPrefabForTechTypeAsync(TechType.ExosuitThermalReactorModule);

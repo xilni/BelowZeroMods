@@ -6,7 +6,6 @@ namespace SeatruckThermal
     [QModCore]
     public class SeatruckThermal
     {
-
         internal static Modules.SeatruckThermalReactorModule seatruckThermalModule = new Modules.SeatruckThermalReactorModule();
 
         [QModPatch]
