@@ -5,8 +5,8 @@
 | Mod name   | Description                                                               | URL                                                            |
 |------------|---------------------------------------------------------------------------|----------------------------------------------------------------|
 | SwimChargeInventory | Allows the Swim Charge Fins to charge items in your inventory | https://www.nexusmods.com/subnauticabelowzero/mods/189 |
-| SeatruckThermal | Thermal reactor module for the Seatruck | Still beta |
-| SeatruckSolar | Solar charger module for the Seatruck | Still beta | 
+| Seatruck Solar | Solar charger module for the Seatruck | https://www.nexusmods.com/subnauticabelowzero/mods/192 | 
+| Seatruck Thermal | Thermal reactor module for the Seatruck | https://www.nexusmods.com/subnauticabelowzero/mods/193 |
 
 ## Credits
 
