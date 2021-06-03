@@ -2,7 +2,7 @@
 	"Id": "SeatruckThermal",
 	"DisplayName": "Seatruck Thermal",
 	"Author": "xilni",
-	"Version": "1.1.0",
+	"Version": "1.1.1",
 	"Enable": true,
 	"Game": "BelowZero",
 	"AssemblyName": "SeatruckThermal.dll",
