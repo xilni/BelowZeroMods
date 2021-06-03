@@ -62,8 +62,9 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Behaviours\SeatruckSolarBehaviour.cs" />
     <Compile Include="Modules\SeatruckSolarChargerModule.cs" />
-    <Compile Include="Patches\SeatruckSolarChargerModuleUpdatePatch.cs" />
+    <Compile Include="Patches\SeaTruckUpgrades_OnUpgradeModuleChange_Patch.cs" />
     <Compile Include="SeatruckSolar.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
