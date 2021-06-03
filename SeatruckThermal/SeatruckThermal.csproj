@@ -65,8 +65,9 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Behaviours\SeatruckThermalBehaviour.cs" />
     <Compile Include="Modules\SeatruckThermalReactorModule.cs" />
-    <Compile Include="Patches\SeatruckThermalReactorModuleUpdatePatch.cs" />
+    <Compile Include="Patches\SeaTruckUpgrades_OnUpgradeModuleChange_Patch.cs" />
     <Compile Include="SeatruckThermal.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
