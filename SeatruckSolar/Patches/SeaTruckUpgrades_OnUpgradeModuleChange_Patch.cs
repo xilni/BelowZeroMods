@@ -7,8 +7,6 @@ namespace SeatruckSolar.Patches
     [HarmonyPatch]
     internal class SeaTruckUpgrades_OnUpgradeModuleChange_Patch
     {
-        
-
         [HarmonyPatch(typeof(SeaTruckUpgrades), nameof(SeaTruckUpgrades.OnUpgradeModuleChange))]
         [HarmonyPostfix]
         public static void Postfix(SeaTruckUpgrades __instance, int slotID, TechType techType, bool added)
