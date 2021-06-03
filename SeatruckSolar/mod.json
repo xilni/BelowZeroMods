@@ -2,7 +2,7 @@
 	"Id": "SeatruckSolar",
 	"DisplayName": "Seatruck Solar",
 	"Author": "xilni",
-	"Version": "1.1.1",
+	"Version": "1.1.2",
 	"Enable": true,
 	"Game": "BelowZero",
 	"AssemblyName": "SeatruckSolar.dll",
