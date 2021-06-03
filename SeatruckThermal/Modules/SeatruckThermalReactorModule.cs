@@ -16,9 +16,7 @@ namespace SeatruckThermal.Modules
             OnFinishedPatching += () =>
             {
                 SMLHelper.V2.Handlers.CraftTreeHandler.Main.AddCraftingNode(CraftTree.Type.Fabricator, this.TechType, new string[] { "Upgrades", "SeatruckUpgrades" });
-                SMLHelper.V2.Handlers.CraftTreeHandler.Main.AddCraftingNode(CraftTree.Type.SeaTruckFabricator, this.TechType, new string[] { "Upgrades" });
                 SMLHelper.V2.Handlers.CraftTreeHandler.Main.AddCraftingNode(CraftTree.Type.SeamothUpgrades, this.TechType, new string[] { "SeaTruckUpgrade" });
-                SMLHelper.V2.Handlers.CraftTreeHandler.Main.AddCraftingNode(CraftTree.Type.Workbench, this.TechType, new string[] { "SeaTruckWBUpgrades" });
             };
         }
 
